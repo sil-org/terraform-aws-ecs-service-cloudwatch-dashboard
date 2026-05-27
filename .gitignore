@@ -1,2 +1,30 @@
+# IntelliJ folder
 .idea/
+
+# Local .terraform directory (contains provider plugins and modules)
 .terraform/
+
+# Lock file (contains provider dependency information) -- only ignored in the root module.
+/.terraform.lock.hcl
+
+# .tfstate files (contain sensitive infrastructure data and secrets)
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+crash.*.log
+
+# Exclude all .tfvars files (often contain secrets/credentials)
+*.tfvars
+*.tfvars.json
+
+# Exclude override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Include override files for CLI configuration
+.terraformrc
+terraform.rc

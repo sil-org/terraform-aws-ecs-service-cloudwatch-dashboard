@@ -4,7 +4,7 @@
 # Local .terraform directory (contains provider plugins and modules)
 .terraform/
 
-# Lock file (contains provider dependency information) -- only ignored in the root module.
+# Lock file (contains provider dependency information) -- only ignored in the reusable module.
 /.terraform.lock.hcl
 
 # .tfstate files (contain sensitive infrastructure data and secrets)

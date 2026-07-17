@@ -8,7 +8,7 @@ resource "aws_cloudwatch_dashboard" "main" {
 data "aws_region" "current" {}
 
 locals {
-  aws_region = data.aws_region.current.name
+  aws_region = data.aws_region.current.region
 
   cluster_widget = {
     type   = "metric"
